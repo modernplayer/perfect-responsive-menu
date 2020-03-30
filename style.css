@@ -8,6 +8,14 @@ body {
 }
 
 @media ( max-width: 40rem ) {
+	body[data-burger="true"]{
+		overflow: hidden;
+	}
+	
+	.noscroll{
+		position: fixed;
+	}
+
 	.navigation button {
 		display: block;
 		position: absolute;
